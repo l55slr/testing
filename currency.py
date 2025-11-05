@@ -1,0 +1,5 @@
+Colombian_pesos =int(input("What do you have left in pesos? "))
+Peruvian_soles = int(input("What do you have left in soles? "))
+Brazilian_reais = int(input("What do you have left in reais? "))
+convert = (Colombian_pesos * 0.00026 ) + (Peruvian_soles * 0.30) +(Brazilian_reais * 0.19)
+print(convert)
