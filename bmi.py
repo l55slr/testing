@@ -1,5 +1,5 @@
-mass = float(input("put ur mass in KG"))
-height = float(input("put ur height meters "))
+mass = float(input("put ur mass in KG: "))
+height = float(input("put ur height meters: "))
 bmi = mass / (height **2)
 print(f"Your BMI is {round(bmi,2)}")
 
