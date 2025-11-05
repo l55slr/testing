@@ -55,4 +55,8 @@ elif answer == 4:
 else:
     print("Wrong input.")
 
+print("Gryffindor: ", gryffindor)
+print("Ravenclaw: ", ravenclaw)
+print("Hufflepuff: ", hufflepuff)
+print("Slytherin: ", slytherin)
 
