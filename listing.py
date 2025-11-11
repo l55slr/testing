@@ -19,3 +19,17 @@ stock2_prices = [8.36, 8.31, 8.21, 8.21, 8.25, 8.11, 8.13]
 print(len(stock1_prices))      # Output: 7
 print(max(stock1_prices))      # Output: 2.52
 print(min(stock2_prices))      # Output: 8.11
+
+#Reading list
+#.append() method adds an item to the end of the list.
+#.insert() method adds an item to a specific index.
+#.remove() method removes an item from a list based on the value.
+#.pop() method removes the item at a particular index.
+reading_list = ['Harry Potter',
+'1984',
+'The Fault in Our Stars',
+'The Mom Test',
+'Life in Code']
+reading_list.insert(0, 'Pachinko')
+reading_list.remove('1984')
+print(reading_list)
