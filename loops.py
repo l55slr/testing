@@ -19,3 +19,13 @@ else:
 print("<============================>")
 for i in range(1, 25):
   print("* " * i)
+
+print("<============================>")
+number = int(input("put the number"))
+total = 0
+
+
+for i in range (1, number +1):
+  total = total + i**2
+
+print(total)
