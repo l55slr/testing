@@ -15,3 +15,7 @@ while total != 2:
     total = die1 + die2
 else:
     print("Snake eyes!")
+
+print("<============================>")
+for i in range(1, 25):
+  print("* " * i)
